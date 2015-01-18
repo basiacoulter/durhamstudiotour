@@ -1,21 +1,32 @@
-/*[class*="col-"] {
-	border: 1px solid #eee;
-	min-height: 50px;
-}*/
-
 /* General */
 
 html, body {
 	height: 100%;
+	margin-top: 0;
+	padding-top: 0;
 }
 body {
 	font-family: ;
 	color: #333;
-	background-color: #cfe5f7;
+	background-color: #fff8de;
 	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+.info {
+	color: #fff;
+	text-align: center;
+	padding-top: 0.4em;
+	font-size: 1.8em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	background-color: #ae4039;
+}
+p.email {
+	text-align: right;
+
 }
 .banner {
-	background-image: url(../images/dst-header-background-border.jpg);
+	background-image: url(../images/dst-header-background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -24,6 +35,38 @@ body {
 }
 img.logo {
 	max-width: 60%;
+}
+ul.social-media {
+	font-size: 2em;
+	padding-left: 0;
+	margin-top: 0.4em;
+}
+ul.social-media li {
+	padding-top: 0.5%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	width: 2em;
+	height: 2em;
+	background-color: rgba(174, 64, 57, 1);
+}
+ul.social-media li.linkedin, 
+ul.social-media li.facebook, 
+ul.social-media li.flickr,
+ul.social-media li.vimeo  {
+	margin-left: 0.5em;
+} 
+ul.social-media li.twitter {
+	margin-left: 0;
+}
+ul.social-media li a {
+	display: block;
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.3s ease;
+}
+ul.social-media li a:hover, 
+ul.social-media li a:focus {
+	color: rgba(255, 255, 255, 0.6);
 }
 .register, 
 .download {
@@ -53,7 +96,7 @@ img.logo {
 .download a.action:hover,
 .register a.action:focus, 
 .download a.action:focus {
-	color: #ce242a;
+	color: #ae4039;
 }
 div.heading {
 	padding-left: 0;
@@ -66,7 +109,7 @@ div.agency-thumb {
 	width: 26em;
 	height: 26em;
 	margin: 0 auto;
-	background-color: #daecfa;
+	background-color: #fff;
 }
 img.brianallen {
 	width: 60%;
@@ -76,6 +119,7 @@ img.brianallen {
 img.cuberis, 
 img.engine, 
 img.heymonkey, 
+img.kompleks,
 img.methodsavvy, 
 img.shedletterpress, 
 img.smashingboxes,
@@ -89,6 +133,7 @@ img.smashingboxes {
 	margin-top: 10%;
 }
 img.engine, 
+img.kompleks,
 img.viget {
 	margin-top: 40%;
 }
@@ -125,7 +170,7 @@ div.smashingboxes:after,
 div.viget:after,
 div.weejee:after {
     white-space: pre;
-    font-size: 1.8em;
+    font-size: 2em;
     padding-top: 3.2em;
     color: #fff;
     text-align: center;
@@ -133,7 +178,7 @@ div.weejee:after {
     width:90%; 
     height:100%;
     top:0; left:5%;
-    background:rgba(150, 191, 189, 0.9);
+    background:rgba(174, 64, 57, 0.9);
     opacity:0;
     transition: all 1s;
     -webkit-transition: all 1s;
@@ -153,56 +198,58 @@ div.weejee:hover:after {
     opacity:1;
 }
 div.brianallen:after {
-	content:'Brian Allen Printing \A address \A Durham';
+	content:'Brian Allen Printing \A 923 Franklin St. \A Durham NC 27701';
 }
 div.cuberis:after {
-	content:'Cuberis \A address \A Durham';
+	content:'Cuberis \A 807 E Main St. \A Durham, NC 27701';
 }
 div.engine:after {
-	content:'Engine \A address \A Durham';
+	content:'Engine \A 300 West Morgan St. \A Durham, NC 27701';
 }
 div.heymonkey:after {
-	content:'Hey Monkey Design \A address \A Durham';
+	content:'Hey Monkey Design \A 105 Hood St. Unit #1 \A Durham, NC 27701';
 }
 div.kompleks:after {
-	content:'Kompleks Creative \A address \A Durham';
+	content:'Kompleks Creative \A 106 West Parrish St. Ste 2 \A Durham, NC 27701';
 }
 div.methodsavvy:after {
-	content:'Method Savvy \A address \A Durham';
+	content:'Method Savvy \A 404 Hunt St. Ste 500 \A Durham, NC 27701';
 }
 div.paragraph:after {
-	content:'The Paragraph Project \A address \A Durham';
+	content:'The Paragraph Project \A 131 Orange St. \A Durham, NC 27701';
 }
 div.republik:after {
-	content:'The Republik \A address \A Durham';
-}
-div.republik:after {
-	content:'The Republik \A address \A Durham';
+	content:'The Republik \A 211 Rigsbee Ave. \A Durham, NC 27701';
 }
 div.shedletterpress:after {
-	content:'Shed Letterpress \A address \A Durham';
+	content:'Shed Letterpress \A Studio Tour Location: \A 105 Hood St. Unit #1 \A Durham, NC 27701';
 }
 div.smashingboxes:after {
-	content:'Smashing Boxes \A address \A Durham';
+	content:'Smashing Boxes \A 359 Blackwell St., Ste 240 \A Durham, NC 27701';
 }
 div.viget:after {
-	content:'Viget \A address \A Durham';
+	content:'Viget \A 202 Rigsbee Ave., 2nd Floor \A Durham, NC 27701';
 }
 div.weejee:after {
-	content:'Weejee Learning \A address \A Durham';
+	content:'Weejee Learning \A 300 Blackwell St., Ste 100 \A Durham, NC 27701';
 }
 .aiga-logo {
 	margin-right: 1em;
 }
 footer {
-	min-height: 14em;
+	color: #ae4039;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 0.1em;
+	min-height: 10em;
 	background-image: url(../images/dst-footer-background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	border-top: 1em solid #42b4cc;
+	background-color: #f7cc89;
+	border-top: 1em solid #ae4039;
 	margin-top: 6em;
-	padding-top: 10em;
-	padding-bottom: 10em;
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
 footer > .container {
 	padding: 0 5em;
@@ -211,51 +258,33 @@ h1 {
 	font-size: 4.3em;
 	text-align: center;
 	line-height: 1.4em;
-	text-shadow: 0px 1px #42b4cc,
-				 0px 2px #b5d4cf,
-				 1px 2px #42b4cc,
-				 1px 4px #b5d4cf,
-				 2px 3px #42b4cc,
-				 2px 5px #b5d4cf,
-				 3px 4px #42b4cc,
-				 3px 6px #b5d4cf,
-				 4px 5px #42b4cc;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
-h3 {
-	color: #42b4cc;
+h1, h2 {
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
 }
 section p, section ul {
 	font-size: 2em;
 	color: #666;
 }
-.info {
-	text-align: center;
-	font-size: 1.8em;
-	font-weight: lighter;
-	letter-spacing: 0.1em;
-	margin-top: 0.4em;
+.aiga  {
+	font-size: 3em;
 }
 .credits {
-	font-size: 1.4em;
-	text-align: center;
+	font-size: 1.75em;
 	padding-top: 2em;
 }
-.aiga {
-	font-size: 2em;
-}
-.creadits, .aiga {
-	font-weight: lighter;
-	letter-spacing: 0.1em;
-}
-.info, .credits, .aiga {
-	color: #fff;
-}
-a.email {
+.info a.email,
+.info a.googlemaps {
 	color: #fff;
 	text-decoration: none;
 }
-a.email:hover, 
-a.email:focus {
+.info a.email:hover, 
+.info a.email:focus,
+.info a.googlemaps:hover, 
+.info a.googlemaps:focus {
 	color: #fff;
 	text-decoration: underline;
 }
@@ -280,42 +309,22 @@ a:visited {
 	text-decoration: none;
 }
 footer div.credits a {
-	color: #fff;
+	color: #ae4039;
 }
-ul.social-media {
-	font-size: 3em;
-}
-ul.social-media li {
-	padding-top: 2%;
-	text-align: center;
-	display: inline-block;
-	float: right;
-	width: 2em;
-	height: 2em;
-	background-color: #ce242a;
-}
-ul.social-media li.linkedin, 
-ul.social-media li.facebook, 
-ul.social-media li.flickr {
-	margin-left: 0.5em;
-} 
-ul.social-media li a {
-	color: rgba(255, 255, 255, 1);
-	transition: color 0.3s ease;
-}
-ul.social-media li a:hover, 
-ul.social-media li a:focus {
-	color: rgba(255, 255, 255, 0.6);
-}
+
 
 
 /* Media Query */
 @media screen and (max-width: 320px) {
-	header {
-		height: 48em;
-	}
 	.banner-content {
 		margin-top: 0;
+	}
+	ul.social-media {
+		padding-left: 0.7em;
+	}
+	ul.social-media li {
+		float: none;
+		padding-top: 1.5%;
 	}
 	.register, 
 	.download {
@@ -323,7 +332,7 @@ ul.social-media li a:focus {
 		background-size: 80%;
 	}
 	.register {
-		margin-top: 3em;
+		margin-top: 2em;
 	}
 	.register p, 
 	.download p {
@@ -331,22 +340,16 @@ ul.social-media li a:focus {
 		margin-top: 4em;
 	}
 	img.logo {
-		margin-top: 3em;
+		margin-top: 1em;
 	}
-	h1 {
-		font-size: 2.75em;
-	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 12em;
 		height: 12em;
 	}
 }
 @media screen and (max-width: 767px) {
-	.banner {
-		border-top: 4em solid #42b4cc;
-	}
-	.info {
-		margin-top: -1.5em;
+	p.email {
+	text-align: center;
 	}
 	img.logo {
 		max-width: 30%;
@@ -357,10 +360,6 @@ ul.social-media li a:focus {
 	}
 	ul.social-media li {
 		float: none;
-		margin-top: 0.5em;
-	}
-	ul.social-media li.linkedin {
-		margin-left: 0;
 	}
 	.aiga {
 	font-size: 1.4em;
@@ -369,10 +368,13 @@ ul.social-media li a:focus {
 }
 @media screen and (min-width: 321px) and (max-width: 479px) {
 	header {
-		height: 54em;
+		height: 60em;
 	}
 	.banner-content {
 		margin-top: 2.2em;
+	}
+	ul.social-media li {
+		padding-top: 1.5%;
 	}
 	.register, 
 	.download {
@@ -388,15 +390,12 @@ ul.social-media li a:focus {
 		margin-top: 2.8em;
 	}
 	img.logo {
-		margin-top: 1em;
+		margin-top: 1.4em;
 	}
 	.main {
-		margin-top: 4em;
+		margin-top: 6em;
 	}
-	h1 {
-		font-size: 2.75em;
-	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 16em;
 		height: 16em;
 	}
@@ -427,10 +426,7 @@ ul.social-media li a:focus {
 	.main {
 		margin-top: 3em;
 	}
-	h1 {
-		font-size: 3.25em;
-	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 20em;
 		height: 20em;
 	}
@@ -464,7 +460,7 @@ ul.social-media li a:focus {
 	h1 {
 		font-size: 3.25em;
 	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 24em;
 		height: 24em;
 	}
@@ -498,7 +494,7 @@ ul.social-media li a:focus {
 	h1 {
 		font-size: 3.4em;
 	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 24em;
 		height: 24em;
 	}
@@ -506,6 +502,9 @@ ul.social-media li a:focus {
 @media screen and (min-width: 768px) {
 	img.logo {
 		margin-bottom: 2em;
+	}
+	.banner {
+		border-bottom: 1em solid #ae4039;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 853px) {
@@ -526,16 +525,11 @@ ul.social-media li a:focus {
 		margin-top: 3.8em;
 	}
 }
-@media screen and (min-width: 768px) {
-	.banner {
-		border-bottom: 1em solid #42b4cc;
-	}
-}
 @media screen and (min-width: 768px) and (max-width: 799px) {
 	.banner-content {
 		margin-top: 2.8em;
 	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 18em;
 		height: 18em;
 	}
@@ -574,7 +568,7 @@ ul.social-media li a:focus {
 	.register p, 
 	.download p {
 		font-size: 2.6em;
-		margin-top: 3.4em;
+		margin-top: 3.2em;
 	}
 	.main {
 		margin-top: 3em;
@@ -584,7 +578,7 @@ ul.social-media li a:focus {
 	header {
 		height: 46em;
 	}
-	.agency-thumb {
+	div.agency-thumb {
 		width: 20em;
 		height: 20em;
 	}
