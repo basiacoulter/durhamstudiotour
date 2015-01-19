@@ -228,7 +228,7 @@ div.smashingboxes:after {
 	content:'Smashing Boxes \A 359 Blackwell St., Ste 240 \A Durham, NC 27701';
 }
 div.viget:after {
-	content:'Viget \A 202 Rigsbee Ave., 2nd Floor \A Durham, NC 27701';
+	content:'Viget \A 202 Rigsbee Ave., 2nd Fl. \A Durham, NC 27701';
 }
 div.weejee:after {
 	content:'Weejee Learning \A 300 Blackwell St., Ste 100 \A Durham, NC 27701';
@@ -255,13 +255,15 @@ footer > .container {
 	padding: 0 5em;
 }
 h1 {
-	font-size: 4.3em;
+	color: #ae4039;
 	text-align: center;
+	font-size: 4.6em;
+	font-weight: 800;
 	line-height: 1.4em;
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-h1, h2 {
+h2 {
 	font-family: 'Droid Serif', serif;
 	font-weight: 700;
 }
@@ -548,7 +550,7 @@ footer div.credits a {
 	.register p, 
 	.download p {
 		font-size: 2em;
-		margin-top: 3.8em;
+		margin-top: 4.2em;
 	}
 	.main {
 		margin-top: 3em;
@@ -568,7 +570,7 @@ footer div.credits a {
 	.register p, 
 	.download p {
 		font-size: 2.6em;
-		margin-top: 3.2em;
+		margin-top: 3.3em;
 	}
 	.main {
 		margin-top: 3em;
