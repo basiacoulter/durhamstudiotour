@@ -285,11 +285,22 @@ section p, section ul {
 	font-size: 1.75em;
 	padding-top: 2em;
 }
+.info p.aigalink {
+	text-align: left;
+	margin-left: -2.5em;
+}
+.info p.email {
+	text-align: right;
+	margin-right: -0.6em;
+}
+.info a.aigalink,
 .info a.email,
 .info a.googlemaps {
 	color: #fff;
 	text-decoration: none;
 }
+.info a.aigalink:hover,
+.info a.aigalink:focus,
 .info a.email:hover, 
 .info a.email:focus,
 .info a.googlemaps:hover, 
@@ -353,8 +364,13 @@ footer div.credits a {
 	}
 }
 @media screen and (max-width: 767px) {
-	p.email {
-	text-align: center;
+	.info p.email {
+		text-align: center;
+		margin-right: 0;
+	}
+	.info p.aigalink {
+		text-align: center;
+		margin-left: 0;
 	}
 	img.logo {
 		max-width: 30%;
