@@ -106,8 +106,8 @@ div.agency-row {
 	margin-top: 3em;
 }
 div.agency-thumb {
-	width: 26em;
-	height: 26em;
+	width: 16em;
+	height: 16em;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -116,6 +116,7 @@ img.brianallen {
 	margin-top: 11%;
 	margin-left: 20%;
 }
+img.caktus,
 img.cuberis, 
 img.engine, 
 img.heymonkey, 
@@ -128,6 +129,7 @@ img.weejee {
 	width: 80%;
 	margin-left: 10%;
 }
+img.caktus,
 img.cuberis,
 img.smashingboxes {
 	margin-top: 10%;
@@ -158,6 +160,7 @@ img.weejee {
 	margin-top: 38%;
 }
 div.brianallen:after,
+div.caktus:after,
 div.cuberis:after,
 div.engine:after,
 div.heymonkey:after,
@@ -170,7 +173,7 @@ div.smashingboxes:after,
 div.viget:after,
 div.weejee:after {
     white-space: pre;
-    font-size: 2em;
+    font-size: 1.4em;
     padding-top: 3.2em;
     color: #fff;
     text-align: center;
@@ -184,6 +187,7 @@ div.weejee:after {
     -webkit-transition: all 1s;
 }
 div.brianallen:hover:after,
+div.caktus:hover:after,
 div.cuberis:hover:after,
 div.engine:hover:after,
 div.heymonkey:hover:after,
@@ -199,6 +203,9 @@ div.weejee:hover:after {
 }
 div.brianallen:after {
 	content:'Brian Allen Printing \A 923 Franklin St. \A Durham NC 27701';
+}
+div.caktus:after {
+	content: 'Caktus Group \A 108 Morris St. Ste 2 \A  Durham, NC 27701';
 }
 div.cuberis:after {
 	content:'Cuberis \A 807 E Main St. \A Durham, NC 27701';
@@ -344,10 +351,6 @@ footer div.credits a {
 	img.logo {
 		margin-top: 1em;
 	}
-	div.agency-thumb {
-		width: 12em;
-		height: 12em;
-	}
 }
 @media screen and (max-width: 767px) {
 	p.email {
@@ -356,12 +359,18 @@ footer div.credits a {
 	img.logo {
 		max-width: 30%;
 	}	
+	div.two,
 	div.three, 
-	div.four {
+	div.four,
+	div.five {
 		margin-top: 3em;
 	}
 	ul.social-media li {
 		float: none;
+	}
+	div.agency-thumb {
+		width: 20em;
+		height: 20em;
 	}
 	.aiga {
 	font-size: 1.4em;
@@ -397,10 +406,6 @@ footer div.credits a {
 	.main {
 		margin-top: 6em;
 	}
-	div.agency-thumb {
-		width: 16em;
-		height: 16em;
-	}
 }
 @media screen and (min-width: 480px) and (max-width: 567px) {
 	header {
@@ -427,10 +432,6 @@ footer div.credits a {
 	}
 	.main {
 		margin-top: 3em;
-	}
-	div.agency-thumb {
-		width: 20em;
-		height: 20em;
 	}
 }
 @media screen and (min-width: 568px) and (max-width: 666px) {
@@ -462,10 +463,6 @@ footer div.credits a {
 	h1 {
 		font-size: 3.25em;
 	}
-	div.agency-thumb {
-		width: 24em;
-		height: 24em;
-	}
 }
 @media screen and (min-width: 667px) and (max-width: 767px) {
 	header {
@@ -495,10 +492,6 @@ footer div.credits a {
 	}
 	h1 {
 		font-size: 3.4em;
-	}
-	div.agency-thumb {
-		width: 24em;
-		height: 24em;
 	}
 }
 @media screen and (min-width: 768px) {
@@ -532,8 +525,8 @@ footer div.credits a {
 		margin-top: 2.8em;
 	}
 	div.agency-thumb {
-		width: 18em;
-		height: 18em;
+		width: 10em;
+		height: 10em;
 	}
 }
 @media screen and (max-width: 1400px) {
@@ -581,8 +574,8 @@ footer div.credits a {
 		height: 46em;
 	}
 	div.agency-thumb {
-		width: 20em;
-		height: 20em;
+		width: 14em;
+		height: 14em;
 	}
 }
 @media screen and (min-width: 1400px) {
