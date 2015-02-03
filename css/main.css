@@ -178,9 +178,9 @@ div.weejee:after {
     color: #fff;
     text-align: center;
     position:absolute;
-    width:90%; 
+    width:84%; 
     height:100%;
-    top:0; left:5%;
+    top:0; left:8%;
     background:rgba(174, 64, 57, 0.9);
     opacity:0;
     transition: all 1s;
@@ -202,13 +202,13 @@ div.weejee:hover:after {
     opacity:1;
 }
 div.brianallen:after {
-	content:'Brian Allen Printing \A 812 N Mangum St. \A Durham NC 27701';
+	content:'Brian Allen: \A Letterpress Printing \A 812 N Mangum St. \A Durham NC 27701';
 }
 div.caktus:after {
 	content: 'Caktus Group \A 108 Morris St. Ste 2 \A  Durham, NC 27701';
 }
 div.cuberis:after {
-	content:'Cuberis \A 807 E Main St. \A Durham, NC 27701';
+	content:'Cuberis \A 807 E Main St. \A Suite 2-210 \A Durham, NC 27701';
 }
 div.engine:after {
 	content:'Engine \A 300 West Morgan St. \A Ste 1475 \A Durham, NC 27701';
@@ -217,7 +217,7 @@ div.heymonkey:after {
 	content:'Hey Monkey Design \A 105 Hood St. Unit #1 \A Durham, NC 27701';
 }
 div.kompleks:after {
-	content:'Kompleks Creative \A 106 West Parrish St. Ste 2 \A Durham, NC 27701';
+	content:'Kompleks Creative \A 106 West Parrish St. \A Ste 2 \A Durham, NC 27701';
 }
 div.methodsavvy:after {
 	content:'Method Savvy \A 404 Hunt St. Ste 500 \A Durham, NC 27701';
